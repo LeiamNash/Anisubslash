@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         spinner = (ProgressBar)findViewById(R.id.progressBar1);
         webview.setWebViewClient(new CustomWebViewClient());
 
-webview.setOnLongClickListener(v -> true);
+webview.setOnLongClickListener(ignore -> true);
 webview.setLongClickable(false);
 webview.getSettings().setJavaScriptEnabled(true);
 webview.getSettings().setDomStorageEnabled(true);
@@ -152,7 +152,7 @@ webview.setOverScrollMode(WebView.OVER_SCROLL_NEVER);
         spinner = (ProgressBar)findViewById(R.id.progressBar1);
         webview.setWebViewClient(new CustomWebViewClient());
 
-webview.setOnLongClickListener(v -> true);
+webview.setOnLongClickListener(ignore -> true);
 webview.setLongClickable(false);
 webview.getSettings().setJavaScriptEnabled(true);
 webview.getSettings().setDomStorageEnabled(true);
