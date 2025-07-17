@@ -115,7 +115,7 @@ webview.setOverScrollMode(WebView.OVER_SCROLL_NEVER);
 
                         final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
 
-                        builder.setMessage(R.string.exit_app);
+                        builder.setMessage(R.string.exit_app)
 
                         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             @Override
@@ -161,3 +161,4 @@ webview.setOverScrollMode(WebView.OVER_SCROLL_NEVER);
     }
 }
 
+  
